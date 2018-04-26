@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GyroscopeMouse</string>
+    <string name="welcome">Welcome</string>
+    <string name="scan">Scan</string>
+    <string name="scan_complete_msg">Scan complete.</string>
+    <string name="found_msg">Found</string>
+    <string name="connecting_msg">Connecting</string>
+    <string name="servers">Servers</string>
+    <string name="servers_list">Servers list:</string>
+    <string name="menu_scan">Scan</string>
+    <string name="start">Start</string>
+    <string name="cannot_find_any_server">Cannot find any server</string>
+    <string name="enter_ip_address">Enter IP address</string>
+    <string name="ip_address">IP address</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="add_ip_address_manually">Add IP address manually</string>
+    <string name="lmb">Left click</string>
+    <string name="rmb">Right click</string>
+    <string name="switch_mouse_control">Mouse control</string>
+    <string name="switch_brightness_control">Brightness control</string>
+</resources>
