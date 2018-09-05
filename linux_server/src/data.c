@@ -24,8 +24,7 @@ void print_sensor_data(struct sensor_data sensor)
 {
   printf("[%c|%c] %5.5f, %5.5f, %5.5f\n", 
       sensor.header, sensor.type, 
-      sensor.values[0], sensor.values[1], sensor.values[2]);
-  printf("%5.5f\n", sensor.values[3]);
+      sensor.values[0], sensor.values[1], sensor.values[2]);     
 }
 
 float bytes_to_float(char *buf)

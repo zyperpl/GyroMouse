@@ -12,12 +12,10 @@
 #define PORT 1366
 #define BUF_LEN 512
 
-#define CMD "ip route get to %s | cut -f 5 -d ' ' | head -n 1"
-
 #define SCAN_MAGIC "pl.zyper.gyroscopemouse.scan_servers_01"
 #define SLEEP_MS 1200
 
-int main(int argc, char *argv[])
+int main()
 {
   printf("Starting...\n\n");
   struct sockaddr_in si_me, si_other;
